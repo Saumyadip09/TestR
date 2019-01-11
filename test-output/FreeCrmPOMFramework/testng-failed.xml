@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCrmPOMFramework]">
+  <test name="FreeCrmPOMFramework(failed)">
+    <classes>
+      <class name="com.crm.tests.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateContactsLabelTest"/>
+        </methods>
+      </class> <!-- com.crm.tests.ContactsPageTest -->
+      <class name="com.crm.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyCorrectUserNameTest"/>
+          <include name="clickOnContactsLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.tests.HomePageTest -->
+      <class name="com.crm.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- FreeCrmPOMFramework(failed) -->
+</suite> <!-- Failed suite [FreeCrmPOMFramework] -->

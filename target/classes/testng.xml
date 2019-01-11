@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding ='UTF-8'?>
+<suite name = "FreeCrmPOMFramework" parallel = "false">
+<test name = "FreeCrmPOMFramework">
+<classes>
+<class name ="com.crm.tests.LoginPageTest"/>
+<!-- <class name ="com.crm.tests.HomePageTest"/> -->
+<class name ="com.crm.tests.ContactsPageTest"/>
+</classes>
+</test>
+</suite>
